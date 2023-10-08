@@ -32,8 +32,6 @@ npm run build-library
 
 ## Publish
 
-Publish requires authorize users before publish.
-
 Before publish you need to bump up version in package.json.
 
 ```
