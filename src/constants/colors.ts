@@ -3,7 +3,7 @@ export const COMMON_COLORS = {
   blue2: '#8ab4f8',
   green1: '#28a745',
   green2: '#A7B45D',
-  netural1: '#ffffff',
+  neutral1: '#ffffff',
   neutral2: '#929292',
   orange1: '#DF9862',
   orange2: '#FDB32A',
