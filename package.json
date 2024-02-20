@@ -3,12 +3,13 @@
   "description": "A package containing a common set of set of variables for applications.",
   "main": "dist/index.js",
   "files": [
+    "config",
     "dist"
   ],
   "keywords": [
     "typescript"
   ],
-  "version": "1.0.5",
+  "version": "1.0.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/HomeBookManager/home-book-constants"

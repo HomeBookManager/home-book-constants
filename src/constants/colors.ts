@@ -1,38 +1,40 @@
+import colors from '../../config/sass/colors';
+
 export const COMMON_COLORS = {
-  blue1: '#035afc',
-  blue2: '#8ab4f8',
-  green1: '#28a745',
-  green2: '#A7B45D',
-  neutral1: '#ffffff',
-  neutral2: '#929292',
-  orange1: '#DF9862',
-  orange2: '#FDB32A',
-  red1: '#D93025',
-  skyBlue1: '#77B3CD',
-  violet1: '#4660F9',
+  blue1: colors['$--hb-common-neutral-1'],
+  blue2: colors['$--hb-common-neutral-2'],
+  green1: colors['$--hb-common-neutral-blue-1'],
+  green2: colors['$--hb-common-neutral-blue-2'],
+  neutral1: colors['$--hb-common-neutral-sky-blue-1'],
+  neutral2: colors['$--hb-common-neutral-green-1'],
+  orange1: colors['$--hb-common-neutral-green-2'],
+  orange2: colors['$--hb-common-neutral-red-1'],
+  red1: colors['$--hb-common-neutral-orange-1'],
+  skyBlue1: colors['$--hb-common-neutral-orange-2'],
+  violet1: colors['$--hb-common-neutral-violet-1'],
 } as const;
 
 export const DARK_COLORS = {
-  neutral1: '#ffffff',
-  neutral2: '#b9bbbe',
-  neutral3: '#343C43',
-  neutral4: '#1E262F',
-  neutral5: '##151D25',
+  neutral1: colors['$--hb-neutral-1--dark'],
+  neutral2: colors['$--hb-neutral-2--dark'],
+  neutral3: colors['$--hb-neutral-3--dark'],
+  neutral4: colors['$--hb-neutral-4--dark'],
+  neutral5: colors['$--hb-neutral-5--dark'],
 } as const;
 
 export const LIGHT_COLORS = {
-  neutral1: '#1e2839',
-  neutral2: '#757575',
-  neutral3: '#E8E9EB',
-  neutral4: '#F1F2F6',
-  neutral5: '#FFFFFF',
+  neutral1: colors['$--hb-neutral-1'],
+  neutral2: colors['$--hb-neutral-2'],
+  neutral3: colors['$--hb-neutral-3'],
+  neutral4: colors['$--hb-neutral-4'],
+  neutral5: colors['$--hb-neutral-5'],
 } as const;
 
 export const FORM_COLORS = {
-  disabledDark: '#FFFFFFF80',
-  disabledLight: '#1B212880',
-  error: '#d93025',
-  errorFocus: '#B20C01',
-  labelDark: '#FFFFFF',
-  labelLight: '#1A2027',
+  disabled: colors['$--hb-label-disabled'],
+  disabledDark: colors['$--hb-label-disabled--dark'],
+  error: colors['$--hb-error'],
+  errorFocus: colors['$--hb-error-focus'],
+  label: colors['$--hb-label'],
+  labelDark: colors['$--hb-label--dark'],
 } as const;
