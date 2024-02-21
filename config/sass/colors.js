@@ -1,15 +1,15 @@
 module.exports = {
   // COMMON
-  '$--hb-common-neutral-1': '#ffffff',
-  '$--hb-common-neutral-2': '#929292',
   '$--hb-common-neutral-blue-1': '#035afc',
   '$--hb-common-neutral-blue-2': '#8ab4f8',
-  '$--hb-common-neutral-sky-blue-1': '#77b3cd',
   '$--hb-common-neutral-green-1': '#28a745',
   '$--hb-common-neutral-green-2': '#a7b45d',
-  '$--hb-common-neutral-red-1': '#d93025',
+  '$--hb-common-neutral-1': '#ffffff',
+  '$--hb-common-neutral-2': '#929292',
   '$--hb-common-neutral-orange-1': '#df9862',
   '$--hb-common-neutral-orange-2': '#fdb32a',
+  '$--hb-common-neutral-red-1': '#d93025',
+  '$--hb-common-neutral-sky-blue-1': '#77b3cd',
   '$--hb-common-neutral-violet-1': '#4660f9',
 
   // LIGHT
@@ -27,10 +27,10 @@ module.exports = {
   '$--hb-neutral-5--dark': '#151d25',
 
   // FORM
-  '$--hb-label-disabled': '#1b212880',
-  '$--hb-label-disabled--dark': '#ffffff80',
   '$--hb-error': '#d93025',
   '$--hb-error-focus': '#b20c01',
   '$--hb-label': '#1a2027',
   '$--hb-label--dark': '#ffffff',
+  '$--hb-label-disabled': '#1b212880',
+  '$--hb-label-disabled--dark': '#ffffff80',
 };
