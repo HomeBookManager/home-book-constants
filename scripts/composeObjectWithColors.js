@@ -19,7 +19,7 @@ const composeObjectWithColors = () => {
     variables.push(`${objKey}: ${variableName}['${key}']`);
   }
 
-  return variables.join(',');
+  return variables.sort().join(',');
 };
 
 stream.once('open', function () {
